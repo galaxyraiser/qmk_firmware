@@ -17,15 +17,15 @@
         "nkro": false
     },
     "matrix_pins": {
-        "cols": ["D4", "C6", "D7", "E6", "B4", "B5"],
-        "rows": ["F6", "F7", "B1", "B3", "B2", "B6"]
+        "cols": ["GP20", "GP22", "GP26", "GP27", "GP28", "GP29"],
+        "rows": ["GP14", "GP13", "GP12", "GP9", "GP8", "GP23"]
     },
     "diode_direction": "COL2ROW",
     "split": {
         "enabled": true,
-        "soft_serial_pin": "D0"
+        "soft_serial_pin": "GP0"
     },
-    "development_board": "promicro",
+    "development_board": "promicro_rp2040",
     "layouts": {
         "LAYOUT": {
             "layout": [
